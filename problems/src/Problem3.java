@@ -5,6 +5,9 @@ import java.util.List;
 /**
  * Created by YSingh on 27/01/17.
  */
+
+ // Learning: Handling the big integers and finding the prime numbers
+
 public class Problem3 {
     //How to find the prime factors of given numbers
     public static void main(String[] args) {
@@ -24,8 +27,10 @@ public class Problem3 {
                number = number.divide(i);
             }
         }
+        if(number.compareTo(two) > 0) {
+            System.out.println(number);
+        }
 
-        System.out.println(number);
     }
 
     public static BigInteger sqrt(BigInteger x) {

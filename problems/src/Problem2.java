@@ -2,6 +2,7 @@
  * Created by YSingh on 26/01/17.
  */
 public class Problem2 {
+    // Learning: recurrence of fibonacci numbers
     // Recurrence for Even Fibonacci sequence is:
     // EFn = 4EFn-1 + EFn-2
     // with seed values
