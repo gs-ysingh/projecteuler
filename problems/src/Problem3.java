@@ -12,7 +12,6 @@ public class Problem3 {
     //How to find the prime factors of given numbers
     public static void main(String[] args) {
         BigInteger number = new BigInteger("600851475143");
-        //BigInteger number = new BigInteger("13195");
         BigInteger two = BigInteger.ONE.add(BigInteger.ONE);
         BigInteger three = two.add(BigInteger.ONE);
 
@@ -22,7 +21,6 @@ public class Problem3 {
 
         BigInteger i = three;
         for (i = three; i.compareTo(sqrt(number)) <= 0; i = i.add(two)) {
-            //System.out.println(i);
             if(number.mod(i).compareTo(BigInteger.ZERO) == 0) {
                number = number.divide(i);
             }
