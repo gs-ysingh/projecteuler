@@ -45,16 +45,4 @@ public class Problem3 {
         }
     }
 
-    //Raw code on big Integer
-    private static void handleBigInteger() {
-        BigInteger number = new BigInteger("600851475143");
-        List<BigInteger> arr = new ArrayList<BigInteger>();
-
-        BigInteger x;
-        BigInteger y;
-        for (BigInteger i = BigInteger.ONE; i.compareTo(number) < 0; i = i.add(BigInteger.ONE)) {
-            arr.add(i);
-        }
-    }
-
 }
